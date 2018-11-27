@@ -1,0 +1,30 @@
+{
+  "name": "wikipediaredislab",
+  "version": "1.0.0",
+  "description": "Example of a Wikipedia Article Getter that allows users to query the Wikipedia API and cache results using Redis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChavaO777/WikipediaRedisLab.git"
+  },
+  "keywords": [
+    "Wikipedia",
+    "Redis",
+    "Node"
+  ],
+  "author": "ChavaO777",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChavaO777/WikipediaRedisLab/issues"
+  },
+  "homepage": "https://github.com/ChavaO777/WikipediaRedisLab#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "redis": "^2.8.0",
+    "response-time": "^2.3.2"
+  }
+}
